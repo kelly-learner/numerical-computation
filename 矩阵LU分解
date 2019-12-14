@@ -1,0 +1,5 @@
+% matlab自带函数
+%自定义n阶方阵A,和n行向量b
+[L,U,P]=lu(A); 
+y = L\(P*b);
+x = U\y；
